@@ -21,6 +21,13 @@ body > * {
     flex-grow: 1;
     padding: 0 15% 0 15%;
 }
+button {
+    transition: 0.5s;
+}
+button:hover {
+    transform: scale(110%);  
+}
+
 
 header {
     flex-grow: 0;
